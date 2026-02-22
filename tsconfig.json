@@ -8,9 +8,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src"],
-  "typeRoots": [
-    "src/app/types",
-    "node_modules/@types"
-  ]
+  "include": ["src"]
 }

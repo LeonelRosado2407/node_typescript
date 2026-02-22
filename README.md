@@ -45,3 +45,32 @@ Current environment variables used include:
 Feel free to add more values as your application grows.
 
 You can modify the configuration files as needed for your project.
+```
+node
+├─ nodemon.json
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ src
+│  ├─ app
+│  │  ├─ controllers
+│  │  │  └─ auth
+│  │  │     └─ auth.controller.ts
+│  │  ├─ middlewares
+│  │  ├─ models
+│  │  └─ services
+│  │     └─ auth
+│  │        └─ auth.service.ts
+│  ├─ config
+│  │  └─ config.ts
+│  ├─ env.ts
+│  ├─ global.d.ts
+│  ├─ index.ts
+│  ├─ routes
+│  │  └─ main.routes.ts
+│  ├─ services
+│  │  └─ auth
+│  └─ types
+└─ tsconfig.json
+
+```
