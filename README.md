@@ -32,45 +32,12 @@ them through a central factory at `src/config/config.ts`.
 
 Current environment variables used include:
 
-| Variable                         | Purpose                                   | Default       |
-|----------------------------------|-------------------------------------------|---------------|
-| `APP_PORT`                       | HTTP port                                | `3000`        |
-| `APPNAME`                        | Application name                          | `my‑app`      |
-| `JWT_SECRET`, `JWT_EXPIRES_IN`   | JSON Web Token settings                   | -             |
-| `CLOUDINARY_*` (3 variables)     | Cloudinary credentials                    | -             |
-| `SESSION_SECRET`                 | Express‑session secret                    | `change_this` |
-| `SESSION_COOKIE_MAX_AGE`         | Session cookie lifetime (ms)              | `86400000`    |
-| `NODE_ENV`                       | Used to set secure cookie flag (`prod`)   | -             |
-
-Feel free to add more values as your application grows.
-
-You can modify the configuration files as needed for your project.
-```
-node
-├─ nodemon.json
-├─ package-lock.json
-├─ package.json
-├─ README.md
-├─ src
-│  ├─ app
-│  │  ├─ controllers
-│  │  │  └─ auth
-│  │  │     └─ auth.controller.ts
-│  │  ├─ middlewares
-│  │  ├─ models
-│  │  └─ services
-│  │     └─ auth
-│  │        └─ auth.service.ts
-│  ├─ config
-│  │  └─ config.ts
-│  ├─ env.ts
-│  ├─ global.d.ts
-│  ├─ index.ts
-│  ├─ routes
-│  │  └─ main.routes.ts
-│  ├─ services
-│  │  └─ auth
-│  └─ types
-└─ tsconfig.json
-
-```
+| Variable                       | Purpose                                 | Default       |
+| ------------------------------ | --------------------------------------- | ------------- |
+| `APP_PORT`                     | HTTP port                               | `3000`        |
+| `APPNAME`                      | Application name                        | `my‑app`      |
+| `JWT_SECRET`, `JWT_EXPIRES_IN` | JSON Web Token settings                 | -             |
+| `CLOUDINARY_*` (3 variables)   | Cloudinary credentials                  | -             |
+| `SESSION_SECRET`               | Express‑session secret                  | `change_this` |
+| `SESSION_COOKIE_MAX_AGE`       | Session cookie lifetime (ms)            | `86400000`    |
+| `NODE_ENV`                     | Used to set secure cookie flag (`prod`) | -             |

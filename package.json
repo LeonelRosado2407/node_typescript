@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "node dist/server.js",
     "dev": "nodemon",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
@@ -17,7 +17,6 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/express": "^5.0.6",
-    "@types/express-session": "^1.18.2",
     "@types/node": "^25.3.0",
     "eslint": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
@@ -30,7 +29,6 @@
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "express-session": "^1.19.0",
     "nodemon": "^3.1.14"
   }
 }
