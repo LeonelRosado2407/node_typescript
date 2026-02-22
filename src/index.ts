@@ -4,7 +4,6 @@ import * as dotenv from 'dotenv';
 import createConfig from './config/config';
 import router from './routes/main.routes';
 
-
 // load .env file into process.env early
 dotenv.config();
 const config = createConfig();
